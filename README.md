@@ -1,6 +1,5 @@
 # 👋 Hi, I'm Abhishek Tyagi
 
-<<<<<<< HEAD
 **Full Stack Developer** | MCA Student @ AKTU | JavaScript · React.js · Node.js · REST APIs
 =======
 **Full Stack Web Developer** | MCA @ AKTU | JavaScript · React.js · Node.js · REST APIs
