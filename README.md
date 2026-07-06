@@ -1,9 +1,10 @@
 # 👋 Hi, I'm Abhishek Tyagi
 
+<<<<<<< HEAD
 **Full Stack Developer** | MCA Student @ AKTU | JavaScript · React.js · Node.js · REST APIs
 =======
 **Full Stack Web Developer** | MCA @ AKTU | JavaScript · React.js · Node.js · REST APIs
-
+>>>>>>> 9c3929be1e78c7dd6acb228ddee888462fa81701
 
 > Independently designed, built, and deployed four production-grade applications spanning frontend, backend, AI integration, and cloud deployment.
 
