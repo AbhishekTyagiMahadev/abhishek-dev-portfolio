@@ -551,6 +551,104 @@ section {
     letter-spacing: 0.05em;
 }
 
+/* PROJECT LINKS */
+.project-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.project-link {
+    width: fit-content;
+}
+
+/* EXPERIENCE */
+.exp-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 40px;
+    transition: all 0.3s;
+}
+
+.exp-card:hover {
+    border-color: rgba(200, 255, 0, 0.2);
+    background: #181818;
+}
+
+.exp-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.exp-role {
+    font-family: 'Fraunces', serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.exp-org {
+    font-size: 11px;
+    color: var(--accent2);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.exp-dates {
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    padding-top: 4px;
+}
+
+/* CERTIFICATIONS */
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 2px;
+}
+
+.cert-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 24px 28px;
+    transition: all 0.3s;
+}
+
+.cert-item:hover {
+    border-color: rgba(200, 255, 0, 0.2);
+    background: #181818;
+}
+
+.cert-name {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.cert-issuer {
+    font-size: 11px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.cert-date {
+    display: inline-block;
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
 /* EDUCATION */
 .edu-grid {
     display: grid;
@@ -641,6 +739,11 @@ section {
     color: var(--accent);
     line-height: 1;
     margin-bottom: 8px;
+    white-space: nowrap;
+}
+
+.stat-num.stat-num-sm {
+    font-size: 40px;
 }
 
 .stat-label {
